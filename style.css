@@ -1,0 +1,99 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+#app {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#remove {
+  color: rgb(244 63 94);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48%;
+  height: 60px;
+  background-color: #333;
+  font-size: 1.7rem;
+  font-weight: 800;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 80%;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 6rem;
+}
+
+input {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: 1px solid rgb(244 63 94);
+  outline: none;
+}
+
+button {
+  font-size: 1rem;
+  background-color: rgb(253 164 175);
+  color: rgb(244 63 94);
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  margin-left: 20px;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(244 63 94);
+  color: white;
+  transition: all;
+  transition-duration: 300ms;
+}

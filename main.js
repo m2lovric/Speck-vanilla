@@ -1,5 +1,5 @@
 import './style.css';
-import { setData } from './counter.js';
+import { setData } from './data.js';
 
 setData(
   document.querySelector('#main'),

@@ -15,7 +15,7 @@ export function setData(main, button, input, remove) {
     main.appendChild(newElement);
   };
 
-  const renderData = async () => {
+  const renderData = () => {
     document.querySelectorAll('article').forEach((el) => el.remove());
 
     data.map((el) => {
